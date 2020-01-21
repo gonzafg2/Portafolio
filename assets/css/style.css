@@ -1,0 +1,26 @@
+:root{
+    --c-bg: #24292E;
+    --ff-brand: 'Nanum Gothic', sans-serif;
+}
+
+html *{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Clases Propias */
+.ff-brand
+{
+    font-family: var(--ff-brand);
+}
+.bg-brand
+{
+    background-color: var(--c-bg);
+}
+
+/* Clases Propias Fin */
+
+.navbar-brand
+{
+    font-size: 1.75rem;
+    line-height: 1.5;
+}
