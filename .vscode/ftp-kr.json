@@ -1,0 +1,16 @@
+{
+    "host": "ftp.miapp.digital",
+    "username": "gfleming-portafolio@miapp.digital",
+    "password": "15Antares15",
+    "remotePath": "../public_html/gfleming-portafolio",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": false,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}
