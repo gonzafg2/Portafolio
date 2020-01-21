@@ -1,0 +1,275 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --dark: #373A3C;
+  --danger: #DC3545;
+  --fs-brand: 2.31rem;
+  --fs-20px: 20px;
+  --fs-30px: 30px;
+  --fs-40px: 40px;
+  --ff-brand: 'Lobster', 'Sans serif';
+  --ff-all: 'Cabin', 'Sans serif';
+}
+
+body {
+  padding-top: 7rem;
+  font-family: var(--ff-all);
+  color: var(--dark);
+}
+
+.carousel-item a {
+  opacity: 1;
+  transition: 100ms;
+}
+
+.carousel-item a:hover {
+  opacity: .75;
+  transition: 100ms;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.nav-item {
+  margin-left: 0.5rem;
+}
+
+.recipe {
+  color: var(--dark);
+}
+
+.recipe h1 {
+  font-weight: 700;
+  line-height: 49px;
+}
+
+@media (min-width: 300px) and (max-width:576px) {
+  .recipe h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 576px) {
+  .recipe .btn {
+    font-size: 13px;
+    margin-right: 1.36rem!important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 359px) {
+  .recipe .btn {
+    font-size: 13px;
+    margin-right: 1px!important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+  .recipe h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 577px) {
+  .recipe h3 {
+    font-size: 20px;
+    position: relative;
+    margin-top: 1.25rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 577px) {
+  .recipe h3::before {
+    content: '';
+    position: absolute;
+    width: 8.5rem;
+    bottom: -0.5rem;
+    border-bottom: solid 2px;
+  }
+}
+
+@media (min-width: 300px) {
+  .subtext {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.5rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .subtext {
+    font-size: 1.29rem;
+    text-align: left;
+  }
+}
+
+.bg-danger {
+  background-color: var(--danger);
+}
+
+.navbar-brand, footer > p {
+  font-size: var(--fs-brand);
+  font-family: var(--ff-brand);
+}
+
+@media (max-width: 576px) {
+  footer > p {
+    margin-bottom: 0;
+  }
+}
+
+hr {
+  border-top: 0.15rem solid black;
+}
+
+.rp-related a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.rp-related a .card {
+  box-shadow: -1px 1px 1px 0 #fff;
+  transition: 200ms;
+}
+
+.rp-related a .card:hover {
+  box-shadow: -5px 5px 10px 0 #999;
+  transition: 200ms;
+}
+
+.rp-related, .recipe, .subscribe {
+  padding-left: 1.45rem;
+  padding-right: 1.45rem;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding-left: 2.45rem;
+    padding-right: 2.4rem;
+  }
+}
+
+@media (min-width: 300px) {
+  .rp-related h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--dark);
+  }
+}
+
+@media (min-width: 576px) {
+  .rp-related h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--dark);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+  .card-title {
+    font-size: 17px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+  .row.recipe-row-text {
+    border-top: solid 0;
+    margin-top: -0.5rem!important;
+  }
+}
+
+@media (min-width: 300px) {
+  .row.recipe-row-text {
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+  }
+}
+
+@media (min-width: 576px) {
+  .row.recipe-row-text {
+    font-size: 1.25rem;
+    border-top: solid 0.15rem var(--dark);
+  }
+}
+
+@media (min-width: 300px) {
+  .subscribe {
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
+}
+
+@media (min-width: 576px) {
+  .subscribe {
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+  }
+}
+
+.subscribe a {
+  padding: 0.5rem 6rem;
+}
+
+.subscribe span {
+  font-family: var(--ff-brand);
+}
+
+.subscribe .container > p + p {
+  font-size: var(--fs-30px);
+  font-weight: 400;
+}
+
+.subscribe .container > p {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .subscribe .container > p {
+    font-size: var(--fs-30px);
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 576px) {
+  .subscribe .container > p + p {
+    font-size: var(--fs-20px);
+    font-weight: 400;
+  }
+}
+
+.carousel-indicators {
+  top: 105%;
+}
+
+.carousel-indicators li {
+  background-color: var(--dark);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+
+.bar-h1 {
+  margin-top: -2rem;
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+  .nav.navbar-nav.ml-auto {
+    text-align: center;
+  }
+}
+

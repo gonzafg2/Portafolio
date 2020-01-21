@@ -1,0 +1,85 @@
+:root
+{
+    --bg-green: #28A745;
+    --color-grey: #707070;
+    --color-green: #28A745;
+    --color-casi-negro: #212529;
+}
+
+html, body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand
+{
+    text-transform: uppercase;
+}
+
+.bg-green
+{
+    background-color: var(--bg-green);
+}
+
+.border-top-card
+{
+    border-top: 1px solid #DDDDDD;
+}
+
+.card, .card-title, .card-body
+{
+    font-weight: 300;
+}
+
+.fa-map-marker-alt
+{
+    color: var(--color-grey);
+}
+
+.card-precio::before
+{
+    content: "$";
+}
+
+.card-precio
+{
+    display: inline-block;
+}
+
+.card-precio span, .card-precio + .card-precio
+{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--color-green);
+}
+
+.map-text
+{
+    font-size: 0.81rem;
+}
+
+.opa-0
+{
+    opacity: 0;
+}
+
+.form-contact h5, .btn
+{
+    font-weight: 500;
+}
+
+.btn
+{
+    color: var(--color-casi-negro);
+}
+
+.form-control 
+{
+    font-weight: 300;
+}
+
+.copyright
+{
+    color: var(--color-grey);
+    font-weight: 300;
+}

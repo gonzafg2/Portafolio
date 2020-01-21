@@ -1,0 +1,119 @@
+:root
+{
+    --color-pink: #e83e8c;
+    --color-info: #17a2b8;
+    --color-gray: #707070;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.bg-pink
+{
+    background-color: var(--color-pink);
+}
+
+.bg-info
+{
+    background-color: var(--color-info);
+}
+
+.color-gray
+{
+    color: var(--color-gray);
+}
+
+.nav-link
+{
+    color: #ffffff!important;
+}
+
+.brand
+{
+    width: 132px;
+    height: 53px;
+}
+
+.bold
+{
+    font-weight: 700!important;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+.header > h1
+{
+    font-size: 2.5rem;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+}
+
+@media (min-width: 720px) {
+    .header > h1
+    {
+        font-size: 3.75rem;
+    }
+    }
+
+@media (min-width: 720px) {
+nav .container
+{
+    width: 85%!important;
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+.list-group-item, .card-link
+{
+    font-size: 0.85rem!important;
+}
+
+@media (min-width: 320px) {
+.header .row
+{
+    margin-right: 0!important;
+    margin-left: 0!important;
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+}
+
+@media (min-width: 720px) {
+.header .row
+{
+    margin-right: 7rem!important;
+    margin-left: 7rem!important;
+    padding-right: 7rem!important;
+    padding-left: 7rem!important;
+}
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+.icons-section
+{
+    display: none;
+}
+}
+
+@media (min-width: 720px) {
+.icons-section li
+{
+    display: inline-block;
+    font-size: 4.5rem;
+    margin-right: 2rem;
+}
+}
+
+footer img
+{
+    width: 53px;
+    height: 100px;
+}

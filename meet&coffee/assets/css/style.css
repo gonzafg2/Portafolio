@@ -1,0 +1,273 @@
+/* Estilos Generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000F08;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    opacity: .85;
+}
+
+.oscuro {
+    background-color: #000F08;
+}
+
+/* Estilos Generales - Fin */
+
+
+/* Estilos Barra de Navegación */
+nav {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    color: #ffffff;
+    text-align: left;
+    padding: 1rem 2rem 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    z-index: 2222;
+}
+
+nav>ul>li {
+    display: inline;
+    margin-right: 2rem;
+}
+
+nav>ul>li>a>svg {
+    margin-top: auto;
+    margin-bottom: -0.45rem;
+}
+
+nav>ul>.nav-text {
+    display: inline;
+}
+
+nav>ul>.nav-text>li {
+    display: inherit;
+    margin-right: 2.5rem;
+    font-size: 1.1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav>ul>.nav-text>li>a {
+    color: #ffffff;
+}
+
+/* Estilos Barra de Navegación - Fin*/
+
+
+/* Estilos de Sección de Título */
+.titulo-index {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    text-align: right;
+    color: #ffffff;
+    padding: 7% 10% 6%;
+}
+
+.titulo-index>h1 {
+    font-weight: 800;
+    font-size: 4.5rem;
+}
+
+.titulo-index>h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+/* Estilos de Sección de Título - Fin */
+
+
+/* Estilos de Sección de Ubicación */
+.ubicacion {
+    padding: 6%;
+}
+
+.ubicacion>h2 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 48px;
+    margin-bottom: 18px;
+}
+
+.ubicacion>p {
+    font-size: 25px;
+}
+
+/* Estilos de Sección de Ubicación - Fin*/
+
+
+/* Estilos de Sección de Speaker */
+.speaker {
+    background-color: #A4452C;
+    color: #ffffff;
+    padding: 5% 15%;
+}
+
+.speaker-img {
+    margin-right: 2rem;
+    width: 15.25rem;
+}
+
+.speaker-text {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.speaker-text>h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.speaker-text>h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.speaker-text>h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.speaker-text>h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.speaker-text>p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Estilos de Sección de Speaker - Fin */
+
+
+/* Estilos de Sección de Eventos */
+.eventos {
+    padding: 7.5rem 10%;
+}
+
+.eventos>h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.eventos>article {
+    display: inline-block;
+    margin-right: 4rem;
+}
+
+.eventos>article>a>img {
+    margin-bottom: 2rem;
+}
+
+.eventos>article>a>h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Estilos de Sección de Eventos - Fin */
+
+
+/* Estilos del Footer */
+
+footer {
+    color: #ffffff;
+    padding: 5rem 0 1.5rem 0;
+}
+
+footer>ul>li {
+    display: inline-block;
+    margin-right: 2.5rem;
+}
+
+.fab {
+    color: #ffffff;
+    font-size: 3.5rem;
+}
+
+.copyright {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* Estilos del Footer - Fin*/
+
+
+
+/* Página de VengaDB */
+
+/* Estilos de Vegan Central*/
+.vegan-content {
+    text-align: left;
+    padding: 2.5% 25% 5%;
+}
+
+/* Estilos de Vegan Central - Fin*/
+
+
+/* Estilos de Vegan Cabecera */
+.header-vegan {
+    padding-top: 8%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+
+/* Estilos de Vegan Cabecera - Fin */
+
+
+/* Estilos de Vegan Imágen */
+.vegan-1>img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+/* Estilos de Vegan Imágen - Fin */
+
+
+/* Estilos de Vegan Sección 1 */
+.vegan-content>.vegan-1>p {
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+
+/* Estilos de Vegan Sección 1 - Fin */
+
+
+/* Estilos de Vegan Sección 2 */
+.vegan-content>.vegan-2>h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.vegan-content>.vegan-2>p {
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+
+/* Estilos de Vegan Sección 2 - Fin */
+
+
+/* Página de VengaDB - Fin */

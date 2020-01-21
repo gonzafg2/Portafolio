@@ -1,0 +1,9 @@
+.p2{
+    font-size: 1rem;
+    transition: 300ms linear;
+}
+
+.p2-display{
+    font-size: 1.09rem;
+    transition: 300ms linear;
+}
