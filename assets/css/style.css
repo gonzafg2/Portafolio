@@ -1,10 +1,12 @@
 :root{
     --c-bg: #24292E;
     --ff-brand: 'Nanum Gothic', sans-serif;
+    --ff-text: 'Montserrat', sans-serif;
+    --bg-carac: #5d9fe2;
 }
 
 html *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--ff-text);
 }
 
 html a
@@ -12,27 +14,65 @@ html a
     color: inherit;
 }
 
+body
+{
+    padding-top: 5rem;
+}
+
 /* Clases Propias */
-.ff-brand
-{
-    font-family: var(--ff-brand);
-}
-.bg-brand
-{
-    background-color: var(--c-bg);
-}
+    .ff-brand
+    {
+        font-family: var(--ff-brand);
+    }
+    .bg-brand
+    {
+        background-color: var(--c-bg);
+    }
 
-/* Clases Propias Fin */
+/* Clases Propias - Fin */
 
-.navbar-brand
-{
-    font-size: 1.75rem;
-    line-height: 1.5;
-}
+/* Estilos del Nav */
+    .navbar-brand
+    {
+        font-size: 1.75rem;
+        line-height: 1.5;
+    }
+    @media(min-width: 576px)
+    {
+        .nav-item
+        {
+            font-size: 1.1rem;
+            margin-left: 1rem;
+        }
+    }
+    .dropdown-menu, .dropdown-item{
+        background-color: var(--c-bg);
+        color: #ffffff;
+    }
+    .dropdown-item{
+        color: #ffffff;
+    }
+/* Estilos del Nav - Fin */
 
+/* Estilos de la Barra de Caracteristicas */
+    .caracteristicas
+    {
+        background-color: var(--bg-carac);
+    }
+    .caracteristicas i[class^="fa"]{
+        font-size: 7rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .caracteristicas p{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+/* Estilos de la Barra de Caracteristicas */
 
-
-footer .fab
-{
-    font-size: 3rem;
-}
+/* Estilos del Footer */
+    footer .fab
+    {
+        font-size: 3rem;
+    }
+/* Estilos del Footer - Fin */

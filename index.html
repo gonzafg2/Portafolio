@@ -14,8 +14,8 @@
     <title>Portafolio - Gonzalo Fleming</title>
 </head>
 
-<body>
-    <nav class="navbar bg-brand navbar-dark navbar-expand-lg py-1 px-4">
+<body id="inicio">
+    <nav class="navbar bg-brand navbar-dark navbar-expand-lg py-1 px-4 fixed-top">
         <div class="container-fluid py-0">
             <a class="navbar-brand ff-brand font-weight-bold" href="/">
                 <i class="fab fa-react text-white"></i> Portafolio
@@ -28,16 +28,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html#inicio">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Características</a>
+                        <a class="nav-link" href="#caracteristicas">Características</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Websites</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="">Meet & Coffee</a>
+                            <a class="dropdown-item" href="">Iguanas</a>
+                            <a class="dropdown-item" href="">Suricata</a>
+                            <a class="dropdown-item" href="">Cuppon</a>
+                            <a class="dropdown-item" href="">Ricomida</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Websites</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="index.html#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -47,24 +54,64 @@
     <main>
         <h1>Hola!</h1>
 
+        <section id="caracteristicas" class="caracteristicas text-center text-white py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-css3"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-js-square"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-bootstrap"></i>
+                        <p>Bootstrap 4.4.1</p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-mobile-alt"></i>
+                        <p>Responsive Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="contacto" class="contacto">
+            <div class="container">
+                <div class="typeform-widget" data-url="https://gonzalofleming.typeform.com/to/uze8Uh" style="width: 100%; height: 400px;"></div> 
+                <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by 
+                    <a href="https://admin.typeform.com/signup?utm_campaign=uze8Uh&utm_source=typeform.com-01DZ4CH1ECJJHASRWK4ZHYJTFR-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">
+                        Typeform
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer bg-brand py-4 text-white text-center">
         <div class="container">
-            <div class="row"></div>
             <div class="row py-4">
                 <div class="col">
-                    <a href="#"><i class="fab fa-linkedin-in mr-5"></i></a>
-                    <a href="#"><i class="fab fa-github mr-5"></i></a>
-                    <a href="#"><i class="fab fa-twitter mr-5"></i></a>
-                    <a href="#"><i class="fab fa-facebook mr-5"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in mr-5"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github mr-5"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter mr-5"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook mr-5"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <p class="my-0">Gonzalo Fleming Garrido <i class="far fa-copyright text-white"></i> 2020 - Todos los Derechos Reservados</p>
+                    <p class="">Gonzalo Fleming Garrido <i class="far fa-copyright text-white"></i> 2020 - Todos los Derechos Reservados</p>
+                    <p class="my-0"> 
+                        <a href="miapp.digital" target="_blank"> miapp.digital</a><i class="far fa-registered"></i> - Un proyecto de 
+                        <a href="https://flemingtech.us" target="_blank">Fleming Science & Technologies</a>
+                    </p>
                 </div>
             </div>
         </div>
