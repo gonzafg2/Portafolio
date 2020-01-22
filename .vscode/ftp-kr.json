@@ -2,7 +2,7 @@
     "host": "ftp.miapp.digital",
     "username": "gfleming-portafolio@miapp.digital",
     "password": "15Antares15",
-    "remotePath": "../public_html/gfleming-portafolio",
+    "remotePath": "/",
     "protocol": "ftp",
     "port": 21,
     "fileNameEncoding": "utf8",
