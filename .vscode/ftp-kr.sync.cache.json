@@ -1,0 +1,77 @@
+{
+  "ftp://ftp.miapp.digital:21@gfleming-portafolio@miapp.digital": {
+    "CNAME": {
+      "type": "-",
+      "size": 13,
+      "lmtime": 0,
+      "modified": false
+    },
+    "README.md": {
+      "type": "-",
+      "size": 30,
+      "lmtime": 0,
+      "modified": false
+    },
+    "assets": {},
+    "cuppon": {},
+    "iguana": {},
+    "index.html": {
+      "type": "-",
+      "size": 7861,
+      "lmtime": 0,
+      "modified": false
+    },
+    "meet&coffee": {},
+    "pruebas": {},
+    "ricomida": {},
+    "suricata": {},
+    "trabajo-final.code-workspace": {
+      "type": "-",
+      "size": 60,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".ftpquota": {
+      "type": "-",
+      "size": 4,
+      "lmtime": 0,
+      "modified": false
+    },
+    "public_html": {
+      "gfleming-portafolio": {
+        "CNAME": {
+          "type": "-",
+          "size": 13,
+          "lmtime": 0,
+          "modified": false
+        },
+        "README.md": {
+          "type": "-",
+          "size": 30,
+          "lmtime": 0,
+          "modified": false
+        },
+        "assets": {},
+        "cuppon": {},
+        "iguana": {},
+        "index.html": {
+          "type": "-",
+          "size": 7861,
+          "lmtime": 0,
+          "modified": false
+        },
+        "meet&coffee": {},
+        "pruebas": {},
+        "ricomida": {},
+        "suricata": {},
+        "trabajo-final.code-workspace": {
+          "type": "-",
+          "size": 60,
+          "lmtime": 0,
+          "modified": false
+        }
+      }
+    }
+  },
+  "$version": 1
+}
