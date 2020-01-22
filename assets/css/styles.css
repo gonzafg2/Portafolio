@@ -30,7 +30,9 @@ body {
 .bg-brand {
     background-color: var(--c-bg);
 }
-
+.modal-75 {
+    max-width: 75%;
+}
 /* Clases Propias - Fin */
 
 /* Estilos del Nav */
@@ -68,8 +70,38 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
 }
-
 /* Estilos de la Barra de Caracteristicas */
+
+/* Estilos de Mis Clientes */
+.websites-clients h2 {
+    font-size: 2.25rem;
+    letter-spacing: 7px;
+}
+
+header hr {
+    border-top: 2px solid var(--c-bg);
+}
+/* Estilos de Mis Clientes - Fin */
+
+/* Estilos del Carrusel */
+.carousel-indicators {
+    bottom: -4rem;
+}
+
+.carousel-indicators li {
+    background-color: var(--c-bg);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-top: 1rem;
+}
+/* Estilos del Carrusel - Fin*/
+
+/* Estilos de Ventana Modal */
+.modal iframe {
+    height: 85vh;
+}
+/* Estilos de Ventana Modal - Fin */
 
 /* Estilos del Footer */
 footer .fab {
