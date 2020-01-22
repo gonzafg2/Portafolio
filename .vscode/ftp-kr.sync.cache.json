@@ -1,0 +1,11 @@
+{
+  "ftp://ftp.miapp.digital:21@gfleming-portafolio@miapp.digital": {
+    ".ftpquota": {
+      "type": "-",
+      "size": 4,
+      "lmtime": 0,
+      "modified": false
+    }
+  },
+  "$version": 1
+}

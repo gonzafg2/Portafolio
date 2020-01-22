@@ -1,14 +1,21 @@
-:root{
+:root
+{
     --c-bg: #24292E;
     --ff-brand: 'Nanum Gothic', sans-serif;
     --ff-text: 'Montserrat', sans-serif;
     --bg-carac: #5d9fe2;
 }
-
+:target
+{
+    padding-top: 2rem;
+}
 html *{
     font-family: var(--ff-text);
 }
-
+html
+{
+    scroll-behavior: smooth;
+}
 html a
 {
     color: inherit;
