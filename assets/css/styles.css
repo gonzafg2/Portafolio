@@ -33,6 +33,10 @@ body {
 .modal-75 {
     max-width: 75%;
 }
+.img-perfil {
+    border-radius: 50%;
+    border: solid 5px #fff;
+}
 /* Clases Propias - Fin */
 
 /* Estilos del Nav */
