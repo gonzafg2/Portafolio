@@ -19,25 +19,20 @@ html a {
 }
 
 body {
-    padding-top: 5rem;
+    padding-top: 3.6rem;
 }
 
-/* Clases Propias */
+/* Clases Propias Compartidas */
 .ff-brand {
     font-family: var(--ff-brand);
 }
-
 .bg-brand {
     background-color: var(--c-bg);
 }
 .modal-75 {
     max-width: 75%;
 }
-.img-perfil {
-    border-radius: 50%;
-    border: solid 5px #fff;
-}
-/* Clases Propias - Fin */
+/* Clases Propias Compartidas - Fin */
 
 /* Estilos del Nav */
 .navbar-brand {
@@ -58,6 +53,35 @@ body {
     color: #ffffff;
 }
 /* Estilos del Nav - Fin */
+
+/* Estilos del Header */
+header {
+    position: relative;
+}
+.jumbotron {
+    margin-bottom: 0;
+}
+.jumbotron-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    filter: brightness(60%);
+}
+header h1 {
+    text-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
+}
+.img-perfil {
+    border-radius: 50%;
+    border: solid 5px #fff;
+    filter: brightness(115%);
+}
+/* Estilos del Header - Fin */
 
 /* Estilos de la Barra de Caracteristicas */
 .caracteristicas {
@@ -86,8 +110,9 @@ body {
 }
 
 header hr {
-    border-top: 2px solid var(--c-bg);
+    border-top: 1px solid #fff;
 }
+
 /* Estilos de Mis Clientes - Fin */
 
 /* Estilos del Carrusel */
@@ -103,6 +128,22 @@ header hr {
     margin-top: 1rem;
 }
 /* Estilos del Carrusel - Fin*/
+
+section.about-me {
+    background-color: #43464B;
+    width: 100%;
+    height: 400px;
+}
+
+.about-me-container {
+    width: 90%;
+    height: 300px;
+    background-color: azure;
+}
+
+
+
+
 
 /* Estilos de Ventana Modal */
 .modal iframe {
