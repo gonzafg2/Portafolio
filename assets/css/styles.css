@@ -20,6 +20,7 @@ html a {
 
 body {
     padding-top: 3.6rem;
+    min-height: 100vh;
 }
 
 /* Clases Propias Compartidas */
@@ -76,11 +77,17 @@ header {
 header h1 {
     text-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
 }
-.img-perfil {
+.img-perfil /* {
     border-radius: 50%;
     border: solid 5px #fff;
     filter: brightness(115%);
+} */
+
+{
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
+
 /* Estilos del Header - Fin */
 
 /* Estilos de la Barra de Caracteristicas */
