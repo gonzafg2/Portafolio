@@ -1,8 +1,9 @@
 :root {
-    --c-bg: #24292E;
+    --c-bg: #24292e;
     --ff-brand: 'Nanum Gothic', sans-serif;
     --ff-text: 'Montserrat', sans-serif;
     --bg-carac: #5d9fe2;
+    --box-card: 0 0 0 #100e17;
 }
 
 :target {
@@ -71,22 +72,26 @@ header {
     left: 0;
     bottom: 0;
     background-image: url(../img/bg-header.jpg);
+    /* background-color: var(--c-bg); */
+    background-color: rgb(36, 41, 46, 0.85);
     background-position: center;
-    filter: brightness(60%);
+    background-blend-mode: multiply;
+    /* filter: brightness(60%); */
 }
 header h1 {
     text-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
 }
-.img-perfil /* {
+
+.img-perfil {
     border-radius: 50%;
     border: solid 5px #fff;
     filter: brightness(115%);
-} */
-
+}
+/* 
 {
     -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-}
+} */
 
 /* Estilos del Header - Fin */
 
@@ -110,6 +115,9 @@ header h1 {
 /* Estilos de Mis Clientes */
 .websites-clients {
     margin-bottom: 5rem;
+}
+.card{
+    box-shadow: var(--box-card);
 }
 .websites-clients h2 {
     font-size: 2.25rem;
@@ -136,18 +144,39 @@ header hr {
 }
 /* Estilos del Carrusel - Fin*/
 
+/* Sección sobre mi */
 section.about-me {
-    background-color: #43464B;
     width: 100%;
-    height: 400px;
+    height: 200px; 
+    position: relative;
 }
 
 .about-me-container {
-    width: 90%;
+    width: 600px;
     height: 300px;
-    background-color: azure;
+    background-color: #201c29;
+    box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    position: absolute;
+    padding: 2rem;
+    z-index: 3;
+    top: -3rem;
+    left: 21%; 
+    border-radius: 1rem;
+    /* right: 0; */
+    /* bottom: calc(-4rem - 132px); */
+    /* max-width: 600px; */
 }
 
+.fas.fa-dna {
+    font-size: 8rem;
+}
+
+/* background: #201c29;
+position: relative;
+*/
+
+/* Sección sobre mi - Fin */
 
 
 
