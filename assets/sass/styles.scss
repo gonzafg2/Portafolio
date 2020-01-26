@@ -1,4 +1,22 @@
+:root {
+    --c-bg: #24292e;
+    --ff-brand: 'Nanum Gothic', sans-serif;
+    --ff-text: 'Montserrat', sans-serif;
+    --bg-carac: #5d9fe2;
+    --box-card: 0 0 1px rgb(16, 14, 23, 0.5);
+}
+
+:target {
+    padding-top: 2rem;
+}
+
 @import "base";
+@import "layout";
+@import "modules";
+@import "states";
+@import "themes";
+
+
 
 /* Clases Propias Compartidas */
 .ff-brand {
@@ -37,9 +55,7 @@
 /* Estilos del Nav - Fin */
 
 /* Estilos del Header */
-header {
-    position: relative;
-}
+
 
 .jumbotron {
     margin-bottom: 0;
@@ -54,28 +70,18 @@ header {
     left: 0;
     bottom: 0;
     background-image: url(../img/bg-header.jpg);
-    /* background-color: var(--c-bg); */
     background-color: rgba(36, 41, 46, 0.85);
     background-position: center;
     background-blend-mode: multiply;
-    /* filter: brightness(60%); */
 }
 
-header h1 {
-    text-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
-}
+
 
 .img-perfil {
     border-radius: 50%;
     border: solid 5px #fff;
     filter: brightness(115%);
 }
-
-/* 
-{
-    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-} */
 
 /* Estilos del Header - Fin */
 
@@ -117,9 +123,7 @@ header h1 {
     letter-spacing: 7px;
 }
 
-header hr {
-    border-top: 1px solid #fff;
-}
+
 
 /* Estilos de Mis Clientes - Fin */
 
@@ -184,7 +188,6 @@ header hr {
         height: 30rem;
         border: 10px solid #201c29;
         border-bottom-left-radius: 50px;
-        /* border-bottom-right-radius: 50px; */
         left: 33%;
     }
 
@@ -201,7 +204,6 @@ header hr {
         top: 50%;
         left: -46%;
         border-bottom-left-radius: 50px;
-        /*border-bottom-right-radius: 50px; */
     }
 
     .fas.fa-dna,
@@ -209,10 +211,6 @@ header hr {
     .fab.fa-black-tie {
         font-size: 8rem;
     }
-
-    /* background: #201c29;
-    position: relative;
-    */
 
     .about-me p:last-child {
         font-size: 0.8rem;
@@ -262,7 +260,6 @@ header hr {
         height: 30rem;
         border: 10px solid #201c29;
         border-bottom-left-radius: 50px;
-        /* border-bottom-right-radius: 50px; */
         left: 33%;
     }
 
@@ -279,7 +276,6 @@ header hr {
         top: 50%;
         left: -57%;
         border-bottom-left-radius: 50px;
-        /*border-bottom-right-radius: 50px; */
     }
 
     .fas.fa-dna,
@@ -287,10 +283,6 @@ header hr {
     .fab.fa-black-tie {
         font-size: 8rem;
     }
-
-    /* background: #201c29;
-    position: relative;
-    */
 
     .about-me p:last-child {
         font-size: 0.8rem;
@@ -340,7 +332,6 @@ header hr {
         height: 30rem;
         border: 10px solid #201c29;
         border-bottom-left-radius: 50px;
-        /* border-bottom-right-radius: 50px; */
         left: 33%;
     }
 
@@ -365,10 +356,6 @@ header hr {
     .fab.fa-black-tie {
         font-size: 8rem;
     }
-
-    /* background: #201c29;
-    position: relative;
-    */
 
     .about-me p:last-child {
         font-size: 0.8rem;
@@ -454,14 +441,3 @@ header hr {
 }
 
 /* Estilos de Ventana Modal - Fin */
-
-/* Estilos del Footer */
-footer .fab {
-    font-size: 3rem;
-}
-
-/* Estilos del Footer - Fin */
-
-button {
-    border-radius: 1rem !important;
-}

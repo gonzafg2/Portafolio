@@ -10,3 +10,19 @@ body {
     padding-top: 3.6rem;
     min-height: 100vh;
 }
+header {
+    position: relative;
+}
+header h1 {
+    text-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
+}
+header hr {
+    border-top: 1px solid #fff;
+}
+button {
+    border-radius: 1rem !important;
+}
+
+footer .fab {
+    font-size: 3rem;
+}
