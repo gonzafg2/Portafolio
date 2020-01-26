@@ -1,0 +1,467 @@
+@import "base";
+
+/* Clases Propias Compartidas */
+.ff-brand {
+    font-family: var(--ff-brand);
+}
+
+.bg-brand {
+    background-color: var(--c-bg);
+}
+
+.modal-75 {
+    max-width: 75%;
+}
+
+/* Clases Propias Compartidas - Fin */
+
+/* Estilos del Nav */
+.navbar-brand {
+    font-size: 1.75rem;
+    line-height: 1.5;
+}
+
+@media(min-width: 576px) {
+    .nav-item {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+}
+
+.dropdown-menu,
+.dropdown-item {
+    background-color: var(--c-bg);
+    color: #ffffff;
+}
+
+/* Estilos del Nav - Fin */
+
+/* Estilos del Header */
+header {
+    position: relative;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.jumbotron-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(../img/bg-header.jpg);
+    /* background-color: var(--c-bg); */
+    background-color: rgba(36, 41, 46, 0.85);
+    background-position: center;
+    background-blend-mode: multiply;
+    /* filter: brightness(60%); */
+}
+
+header h1 {
+    text-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
+}
+
+.img-perfil {
+    border-radius: 50%;
+    border: solid 5px #fff;
+    filter: brightness(115%);
+}
+
+/* 
+{
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+} */
+
+/* Estilos del Header - Fin */
+
+/* Estilos de la Barra de Caracteristicas */
+.caracteristicas {
+    background-color: var(--bg-carac);
+}
+
+.caracteristicas i[class^="fa"] {
+    font-size: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.caracteristicas p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilos de la Barra de Caracteristicas */
+
+/* Estilos de Mis Clientes */
+.websites-clients {
+    margin-bottom: 5rem;
+}
+
+.card {
+    box-shadow: var(--box-card);
+    border-radius: 1rem;
+}
+
+.card img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.websites-clients h2 {
+    font-size: 2.25rem;
+    letter-spacing: 7px;
+}
+
+header hr {
+    border-top: 1px solid #fff;
+}
+
+/* Estilos de Mis Clientes - Fin */
+
+/* Estilos del Carrusel */
+.carousel-indicators {
+    bottom: -5rem;
+}
+
+.carousel-indicators li {
+    background-color: var(--c-bg);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+}
+
+/* Estilos del Carrusel - Fin*/
+
+
+
+
+
+
+@media(min-width: 1280px) {
+
+    /* Sección sobre mi */
+    section.about-me,
+    section.experiencia,
+    section.mis-clientes {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    .about-me-container,
+    .experiencia-container,
+    .mis-clientes-container {
+        width: 600px;
+        height: 300px;
+        background-color: #201c29;
+        box-shadow: 0 0 5rem #100e17;
+        color: #a1a1af;
+        position: absolute;
+        padding: 2rem;
+        z-index: 3;
+        border-radius: 1rem;
+    }
+
+    .about-me-container {
+        top: -2rem;
+        left: 8%;
+    }
+
+    .mis-clientes-container {
+        top: 2rem;
+        left: 8%;
+    }
+
+    .about-me-container::after {
+        content: "";
+        position: absolute;
+        height: 30rem;
+        border: 10px solid #201c29;
+        border-bottom-left-radius: 50px;
+        /* border-bottom-right-radius: 50px; */
+        left: 33%;
+    }
+
+    .experiencia-container {
+        top: 0;
+        right: 8%;
+    }
+
+    .experiencia-container::before {
+        content: "";
+        position: absolute;
+        width: 20rem;
+        border: 10px solid #201c29;
+        top: 50%;
+        left: -46%;
+        border-bottom-left-radius: 50px;
+        /*border-bottom-right-radius: 50px; */
+    }
+
+    .fas.fa-dna,
+    .fas.fa-briefcase,
+    .fab.fa-black-tie {
+        font-size: 8rem;
+    }
+
+    /* background: #201c29;
+    position: relative;
+    */
+
+    .about-me p:last-child {
+        font-size: 0.8rem;
+    }
+
+    /* Sección sobre mi - Fin */
+}
+
+@media(min-width: 1360px) {
+
+    /* Sección sobre mi */
+    section.about-me,
+    section.experiencia,
+    section.mis-clientes {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    .about-me-container,
+    .experiencia-container,
+    .mis-clientes-container {
+        width: 600px;
+        height: 300px;
+        background-color: #201c29;
+        box-shadow: 0 0 5rem #100e17;
+        color: #a1a1af;
+        position: absolute;
+        padding: 2rem;
+        z-index: 3;
+        border-radius: 1rem;
+    }
+
+    .about-me-container {
+        top: -2rem;
+        left: 8%;
+    }
+
+    .mis-clientes-container {
+        top: 2rem;
+        left: 8%;
+    }
+
+    .about-me-container::after {
+        content: "";
+        position: absolute;
+        height: 30rem;
+        border: 10px solid #201c29;
+        border-bottom-left-radius: 50px;
+        /* border-bottom-right-radius: 50px; */
+        left: 33%;
+    }
+
+    .experiencia-container {
+        top: 0;
+        right: 8%;
+    }
+
+    .experiencia-container::before {
+        content: "";
+        position: absolute;
+        width: 22rem;
+        border: 10px solid #201c29;
+        top: 50%;
+        left: -57%;
+        border-bottom-left-radius: 50px;
+        /*border-bottom-right-radius: 50px; */
+    }
+
+    .fas.fa-dna,
+    .fas.fa-briefcase,
+    .fab.fa-black-tie {
+        font-size: 8rem;
+    }
+
+    /* background: #201c29;
+    position: relative;
+    */
+
+    .about-me p:last-child {
+        font-size: 0.8rem;
+    }
+
+    /* Sección sobre mi - Fin */
+}
+
+@media(min-width: 1435px) {
+
+    /* Sección sobre mi */
+    section.about-me,
+    section.experiencia,
+    section.mis-clientes {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    .about-me-container,
+    .experiencia-container,
+    .mis-clientes-container {
+        width: 600px;
+        height: 300px;
+        background-color: #201c29;
+        box-shadow: 0 0 5rem #100e17;
+        color: #a1a1af;
+        position: absolute;
+        padding: 2rem;
+        z-index: 3;
+        border-radius: 1rem;
+    }
+
+    .about-me-container {
+        top: -2rem;
+        left: 8%;
+    }
+
+    .mis-clientes-container {
+        top: 2rem;
+        left: 8%;
+    }
+
+    .about-me-container::after {
+        content: "";
+        position: absolute;
+        height: 30rem;
+        border: 10px solid #201c29;
+        border-bottom-left-radius: 50px;
+        /* border-bottom-right-radius: 50px; */
+        left: 33%;
+    }
+
+    .experiencia-container {
+        top: 0;
+        right: 8%;
+    }
+
+    .experiencia-container::before {
+        content: "";
+        position: absolute;
+        width: 26rem;
+        border: 10px solid #201c29;
+        top: 50%;
+        left: -66%;
+        border-bottom-left-radius: 50px;
+        /*border-bottom-right-radius: 50px; */
+    }
+
+    .fas.fa-dna,
+    .fas.fa-briefcase,
+    .fab.fa-black-tie {
+        font-size: 8rem;
+    }
+
+    /* background: #201c29;
+    position: relative;
+    */
+
+    .about-me p:last-child {
+        font-size: 0.8rem;
+    }
+
+    /* Sección sobre mi - Fin */
+}
+
+@media(min-width: 1820px) {
+
+    /* Sección sobre mi */
+    section.about-me,
+    section.experiencia,
+    section.mis-clientes {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    .about-me-container,
+    .experiencia-container,
+    .mis-clientes-container {
+        width: 600px;
+        height: 300px;
+        background-color: #201c29;
+        box-shadow: 0 0 5rem #100e17;
+        color: #a1a1af;
+        position: absolute;
+        padding: 2rem;
+        z-index: 3;
+        border-radius: 1rem;
+    }
+
+    .about-me-container,
+    .mis-clientes-container {
+        top: -3rem;
+        left: 21%;
+    }
+
+    .about-me-container::after {
+        content: "";
+        position: absolute;
+        height: 26rem;
+        border: 10px solid #201c29;
+        border-bottom-left-radius: 50px;
+        /* border-bottom-right-radius: 50px; */
+        left: 50%;
+    }
+
+    .experiencia-container {
+        top: -3rem;
+        right: 15%;
+    }
+
+    .experiencia-container::before {
+        content: "";
+        position: absolute;
+        width: 17rem;
+        border: 10px solid #201c29;
+        top: 50%;
+        left: -43.4%;
+        border-bottom-left-radius: 50px;
+    }
+
+    .fas.fa-dna,
+    .fas.fa-briefcase,
+    .fab.fa-black-tie {
+        font-size: 8rem;
+    }
+    
+    .about-me p:last-child {
+        font-size: 0.8rem;
+    }
+
+    /* Sección sobre mi - Fin */
+}
+
+
+
+/* Estilos de Ventana Modal */
+.modal iframe {
+    height: 85vh;
+}
+
+/* Estilos de Ventana Modal - Fin */
+
+/* Estilos del Footer */
+footer .fab {
+    font-size: 3rem;
+}
+
+/* Estilos del Footer - Fin */
+
+button {
+    border-radius: 1rem !important;
+}

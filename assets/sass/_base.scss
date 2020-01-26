@@ -1,0 +1,12 @@
+html {
+    font-family: var(--ff-text);
+    scroll-behavior: smooth;
+}
+
+html a {
+    color: inherit;
+}
+body {
+    padding-top: 3.6rem;
+    min-height: 100vh;
+}
