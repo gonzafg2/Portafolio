@@ -150,13 +150,13 @@ header hr {
 /* Estilos del Carrusel - Fin*/
 
 /* Sección sobre mi */
-section.about-me {
+section.about-me, section.experiencia {
     width: 100%;
-    height: 200px; 
+    height: 300px; 
     position: relative;
 }
 
-.about-me-container {
+.about-me-container, .experiencia-container {
     width: 600px;
     height: 300px;
     background-color: #201c29;
@@ -165,12 +165,12 @@ section.about-me {
     position: absolute;
     padding: 2rem;
     z-index: 3;
-    top: -3rem;
-    left: 21%; 
     border-radius: 1rem;
-    /* right: 0; */
-    /* bottom: calc(-4rem - 132px); */
-    /* max-width: 600px; */
+}
+
+.about-me-container {
+    top: -3rem;
+    left: 21%;
 }
 
 .fas.fa-dna {
@@ -201,3 +201,7 @@ footer .fab {
 }
 
 /* Estilos del Footer - Fin */
+
+button {
+    border-radius: 1rem !important;
+}
