@@ -45,7 +45,6 @@ footer .fab {
   font-size: 3rem;
 }
 
-/* Clases Propias Compartidas */
 .ff-brand {
   font-family: var(--ff-brand);
 }
@@ -54,12 +53,15 @@ footer .fab {
   background-color: var(--c-bg);
 }
 
-.modal-75 {
-  max-width: 75%;
+#preload {
+  padding-top: 35vh;
 }
 
-/* Clases Propias Compartidas - Fin */
-/* Estilos del Nav */
+#preload .spinner-grow {
+  width: 5rem;
+  height: 5rem;
+}
+
 .navbar-brand {
   font-size: 1.75rem;
   line-height: 1.5;
@@ -78,8 +80,6 @@ footer .fab {
   color: #ffffff;
 }
 
-/* Estilos del Nav - Fin */
-/* Estilos del Header */
 .jumbotron {
   margin-bottom: 0;
 }
@@ -98,6 +98,22 @@ footer .fab {
   background-blend-mode: multiply;
 }
 
+@media screen and (min-width: 300px) {
+  header h1 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
 .img-perfil {
   border-radius: 50%;
   border: solid 5px #fff;
@@ -105,7 +121,14 @@ footer .fab {
           filter: brightness(115%);
 }
 
-/* Estilos del Header - Fin */
+.modal-75 {
+  max-width: 75%;
+}
+
+.modal iframe {
+  height: 85vh;
+}
+
 /* Estilos de la Barra de Caracteristicas */
 .caracteristicas {
   background-color: var(--bg-carac);
@@ -336,7 +359,6 @@ footer .fab {
     top: 50%;
     left: -66%;
     border-bottom-left-radius: 50px;
-    /*border-bottom-right-radius: 50px; */
   }
   .fas.fa-dna,
   .fas.fa-briefcase,
@@ -383,7 +405,6 @@ footer .fab {
     height: 26rem;
     border: 10px solid #201c29;
     border-bottom-left-radius: 50px;
-    /* border-bottom-right-radius: 50px; */
     left: 50%;
   }
   .experiencia-container {
@@ -409,11 +430,4 @@ footer .fab {
   }
   /* Sección sobre mi - Fin */
 }
-
-/* Estilos de Ventana Modal */
-.modal iframe {
-  height: 85vh;
-}
-
-/* Estilos de Ventana Modal - Fin */
 /*# sourceMappingURL=styles.css.map */

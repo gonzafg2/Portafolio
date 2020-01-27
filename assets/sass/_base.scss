@@ -1,10 +1,18 @@
+:root {
+    --c-bg: #24292e;
+    --ff-brand: 'Nanum Gothic', sans-serif;
+    --ff-text: 'Montserrat', sans-serif;
+    --bg-carac: #5d9fe2;
+    --box-card: 0 0 1px rgb(16, 14, 23, 0.5);
+}
+
+:target {
+    padding-top: 2rem;
+}
 html {
     font-family: var(--ff-text);
     scroll-behavior: smooth;
-}
-
-html a {
-    color: inherit;
+    a {color: inherit;}
 }
 body {
     padding-top: 3.6rem;
@@ -12,12 +20,13 @@ body {
 }
 header {
     position: relative;
-}
-header h1 {
-    text-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
-}
-header hr {
-    border-top: 1px solid #fff;
+
+    h1 {
+        text-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
+    }
+    hr {
+        border-top: 1px solid #fff;
+    }
 }
 button {
     border-radius: 1rem !important;

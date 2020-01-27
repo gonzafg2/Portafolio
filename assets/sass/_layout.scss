@@ -1,0 +1,13 @@
+.ff-brand {
+    font-family: var(--ff-brand);
+}
+.bg-brand {
+    background-color: var(--c-bg);
+}
+#preload{
+    padding-top: 35vh;
+    .spinner-grow{
+        width: 5rem; 
+        height: 5rem;
+    }
+}

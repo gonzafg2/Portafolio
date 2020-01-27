@@ -1,0 +1,104 @@
+doctype
+html(lang="es")
+  head
+      meta(charset="UTF-8")
+      meta(name="viewport", content="width=device-width, initial-scale=1.0")
+      meta(http-equiv="X-UA-Compatible", content="ie=edge")
+      meta(name="author", content="Gonzalo Fleming")
+      meta(name="description", content="Portafolio de Gonzalo Fleming")
+      link(rel="shortcut icon", href="assets/img/favicon/favicon.ico", type="image/x-icon")
+      script(src="https://kit.fontawesome.com/ac845de1ae.js", crossorigin="anonymous")
+      link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Nanum+Gothic:400,700&display=swap")
+      link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh", crossorigin="anonymous")
+      link(rel="stylesheet", href="assets/css/styles.min.css")
+      title Portafolio - Gonzalo Fleming
+  
+  body#inicio
+    #preload.d-flex.justify-content-center
+      .spinner-grow.text-dark(role="status")
+        span.sr-only Cargando...
+
+    #body.d-none
+      nav.navbar.bg-brand.navbar-dark.navbar-expand-lg.py-1.px-4.fixed-top
+        .container-fluid.py-0
+          a.navbar-brand.ff-brand.font-weight-bold(href="/gfleming-portafolio")
+            i.fab.fa-react.text-white
+            |  Portafolio
+          
+          button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarNav", aria-controls="navbarNav", aria-expanded="false", aria-label="Toggle navigation")
+            span.navbar-toggler-icon
+
+          .collapse.navbar-collapse#navbarNav
+            ul.navbar-nav.ml-auto
+              li.nav-item.active
+                a.nav-link(href="index.html#inicio") Home
+              li.nav-item
+                a.nav-link(href="#") Sobre Mí
+              li.nav-item
+                a.nav-link(href="index.html#caracteristicas-banner") Características
+              li.nav-item.dropdown
+                a.nav-link.dropdown-toggle#navbarDropdown(role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false", href="#") Clientes
+                .dropdown-menu(aria-labelledby="navbarDropdown")
+                  a.dropdown-item(href="#") DMR Accesorios
+                  a.dropdown-item(href="#") Integralma
+                  a.dropdown-item(href="#") Tu Colaborador
+                  a.dropdown-item(href="#") Masman Producciones
+                  a.dropdown-item(href="#") Ricetta di Napoli
+              li.nav-item.dropdown
+                a.nav-link.dropdown-toggle#navbarDropdown(role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false", href="#") Templates
+                .dropdown-menu(aria-labelledby="navbarDropdown")
+                  a.dropdown-item(href="#") Meet & Coffee
+                  a.dropdown-item(href="#") Iguanas
+                  a.dropdown-item(href="#") Suricata
+                  a.dropdown-item(href="#") Cuppon
+                  a.dropdown-item(href="#") Ricomida
+              li.nav-item
+                a.nav-link(href="index.html#contacto") Contacto
+      
+      main.pb-5
+        header.jumbotron.ff-brand.text-white
+          .jumbotron-img
+          .row
+            .col-12.col-lg-8.my-auto.text-right
+              h1 Desarrolador FrontEnd
+              .lead Gonzalo Fleming G.
+              hr.my-4
+            
+            .col-12.col-lg-4.pl-5
+              .img-perfil-frame.pl-5
+                img.img-perfil.w-50(src="assets/img/yo.jpg", alt="Gonzalo F.")
+
+        section.about-me.d-none.d-md-block
+          .about-me-container
+            .row
+              .col-8.my-auto
+                p Santiago, Chile
+                h3.text-white Sobre Mí
+                p Desarrollador web con más de siete años de experiencia realizando sitios web estáticos y dinámicos.
+                p Utilizando lenguajes como HTML5, CSS3, JS del lado del cliente y PHP del servidor.
+                p
+                  em QF de profesión, Web Developer de corazón.
+
+              .col-4.my-auto.text-white.text-center
+                i.fas.fa-dna
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    script(src="https://code.jquery.com/jquery-3.4.1.min.js", integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=", crossorigin="anonymous")
+    script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js", integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo", crossorigin="anonymous")
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js", integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6", crossorigin="anonymous")
+    script(src="assets/js/script.js")

@@ -1,0 +1,39 @@
+// Imágen de Fondo de Header
+.jumbotron {
+    margin-bottom: 0;
+    &-img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-image: url(../img/bg-header.jpg);
+        background-color: rgba(36, 41, 46, 0.85);
+        background-position: center;
+        background-blend-mode: multiply;
+    }
+}
+// Fin - Imágen de Fondo de Header
+
+header{
+    h1{
+        @media screen and (min-width: 300px) {
+            font-size: 1.6rem;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+        @media screen and (min-width: 576px) {
+            font-size: 3.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+    }
+}
+
+.img-perfil {
+    border-radius: 50%;
+    border: solid 5px #fff;
+    filter: brightness(115%);
+}
