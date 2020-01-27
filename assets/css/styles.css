@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --c-bg: #24292e;
   --ff-brand: 'Nanum Gothic', sans-serif;
@@ -35,6 +34,10 @@ header h1 {
 
 header hr {
   border-top: 1px solid #fff;
+}
+
+main {
+  width: 100%;
 }
 
 button {
@@ -121,12 +124,365 @@ footer .fab {
           filter: brightness(115%);
 }
 
+section .about-me {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+@media screen and (min-width: 1140px) {
+  section .about-me-container {
+    width: 65%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section .about-me-container {
+    width: 55%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 1790px) {
+  section .about-me-container {
+    width: 50%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+section .about-me p:last-child {
+  font-size: 0.8rem;
+}
+
+section .experiencia {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+@media screen and (min-width: 300px) {
+  section .experiencia-container {
+    width: 90%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 576px) {
+  section .experiencia-container {
+    width: 75%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section .experiencia-container {
+    width: 75%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section .experiencia-container {
+    width: 75%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  section .experiencia-container {
+    width: 65%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section .experiencia-container {
+    width: 55%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 1790px) {
+  section .experiencia-container {
+    width: 50%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+section .mis-clientes {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+@media screen and (min-width: 300px) {
+  section .mis-clientes-container {
+    width: 90%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 576px) {
+  section .mis-clientes-container {
+    width: 75%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section .mis-clientes-container {
+    width: 75%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section .mis-clientes-container {
+    width: 75%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  section .mis-clientes-container {
+    width: 65%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section .mis-clientes-container {
+    width: 55%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
+@media screen and (min-width: 1790px) {
+  section .mis-clientes-container {
+    width: 50%;
+    height: 100%;
+    background-color: #201c29;
+    -webkit-box-shadow: 0 0 5rem #100e17;
+            box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+  }
+}
+
 .modal-75 {
   max-width: 75%;
 }
 
 .modal iframe {
   height: 85vh;
+}
+
+@media screen and (min-width: 300px) {
+  .fas.fa-dna,
+  .fas.fa-briefcase,
+  .fab.fa-black-tie {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .fas.fa-dna,
+  .fas.fa-briefcase,
+  .fab.fa-black-tie {
+    font-size: 6.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fas.fa-dna,
+  .fas.fa-briefcase,
+  .fab.fa-black-tie {
+    font-size: 7.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .fas.fa-dna,
+  .fas.fa-briefcase,
+  .fab.fa-black-tie {
+    font-size: 8rem;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .fas.fa-dna,
+  .fas.fa-briefcase,
+  .fab.fa-black-tie {
+    font-size: 8rem;
+  }
 }
 
 /* Estilos de la Barra de Caracteristicas */
@@ -182,252 +538,4 @@ footer .fab {
 }
 
 /* Estilos del Carrusel - Fin*/
-@media (min-width: 1280px) {
-  /* Sección sobre mi */
-  section.about-me,
-  section.experiencia,
-  section.mis-clientes {
-    width: 100%;
-    height: 300px;
-    position: relative;
-  }
-  .about-me-container,
-  .experiencia-container,
-  .mis-clientes-container {
-    width: 600px;
-    height: 300px;
-    background-color: #201c29;
-    -webkit-box-shadow: 0 0 5rem #100e17;
-            box-shadow: 0 0 5rem #100e17;
-    color: #a1a1af;
-    position: absolute;
-    padding: 2rem;
-    z-index: 3;
-    border-radius: 1rem;
-  }
-  .about-me-container {
-    top: -2rem;
-    left: 8%;
-  }
-  .mis-clientes-container {
-    top: 2rem;
-    left: 8%;
-  }
-  .about-me-container::after {
-    content: "";
-    position: absolute;
-    height: 30rem;
-    border: 10px solid #201c29;
-    border-bottom-left-radius: 50px;
-    left: 33%;
-  }
-  .experiencia-container {
-    top: 0;
-    right: 8%;
-  }
-  .experiencia-container::before {
-    content: "";
-    position: absolute;
-    width: 20rem;
-    border: 10px solid #201c29;
-    top: 50%;
-    left: -46%;
-    border-bottom-left-radius: 50px;
-  }
-  .fas.fa-dna,
-  .fas.fa-briefcase,
-  .fab.fa-black-tie {
-    font-size: 8rem;
-  }
-  .about-me p:last-child {
-    font-size: 0.8rem;
-  }
-  /* Sección sobre mi - Fin */
-}
-
-@media (min-width: 1360px) {
-  /* Sección sobre mi */
-  section.about-me,
-  section.experiencia,
-  section.mis-clientes {
-    width: 100%;
-    height: 300px;
-    position: relative;
-  }
-  .about-me-container,
-  .experiencia-container,
-  .mis-clientes-container {
-    width: 600px;
-    height: 300px;
-    background-color: #201c29;
-    -webkit-box-shadow: 0 0 5rem #100e17;
-            box-shadow: 0 0 5rem #100e17;
-    color: #a1a1af;
-    position: absolute;
-    padding: 2rem;
-    z-index: 3;
-    border-radius: 1rem;
-  }
-  .about-me-container {
-    top: -2rem;
-    left: 8%;
-  }
-  .mis-clientes-container {
-    top: 2rem;
-    left: 8%;
-  }
-  .about-me-container::after {
-    content: "";
-    position: absolute;
-    height: 30rem;
-    border: 10px solid #201c29;
-    border-bottom-left-radius: 50px;
-    left: 33%;
-  }
-  .experiencia-container {
-    top: 0;
-    right: 8%;
-  }
-  .experiencia-container::before {
-    content: "";
-    position: absolute;
-    width: 22rem;
-    border: 10px solid #201c29;
-    top: 50%;
-    left: -57%;
-    border-bottom-left-radius: 50px;
-  }
-  .fas.fa-dna,
-  .fas.fa-briefcase,
-  .fab.fa-black-tie {
-    font-size: 8rem;
-  }
-  .about-me p:last-child {
-    font-size: 0.8rem;
-  }
-  /* Sección sobre mi - Fin */
-}
-
-@media (min-width: 1435px) {
-  /* Sección sobre mi */
-  section.about-me,
-  section.experiencia,
-  section.mis-clientes {
-    width: 100%;
-    height: 300px;
-    position: relative;
-  }
-  .about-me-container,
-  .experiencia-container,
-  .mis-clientes-container {
-    width: 600px;
-    height: 300px;
-    background-color: #201c29;
-    -webkit-box-shadow: 0 0 5rem #100e17;
-            box-shadow: 0 0 5rem #100e17;
-    color: #a1a1af;
-    position: absolute;
-    padding: 2rem;
-    z-index: 3;
-    border-radius: 1rem;
-  }
-  .about-me-container {
-    top: -2rem;
-    left: 8%;
-  }
-  .mis-clientes-container {
-    top: 2rem;
-    left: 8%;
-  }
-  .about-me-container::after {
-    content: "";
-    position: absolute;
-    height: 30rem;
-    border: 10px solid #201c29;
-    border-bottom-left-radius: 50px;
-    left: 33%;
-  }
-  .experiencia-container {
-    top: 0;
-    right: 8%;
-  }
-  .experiencia-container::before {
-    content: "";
-    position: absolute;
-    width: 26rem;
-    border: 10px solid #201c29;
-    top: 50%;
-    left: -66%;
-    border-bottom-left-radius: 50px;
-  }
-  .fas.fa-dna,
-  .fas.fa-briefcase,
-  .fab.fa-black-tie {
-    font-size: 8rem;
-  }
-  .about-me p:last-child {
-    font-size: 0.8rem;
-  }
-  /* Sección sobre mi - Fin */
-}
-
-@media (min-width: 1820px) {
-  /* Sección sobre mi */
-  section.about-me,
-  section.experiencia,
-  section.mis-clientes {
-    width: 100%;
-    height: 300px;
-    position: relative;
-  }
-  .about-me-container,
-  .experiencia-container,
-  .mis-clientes-container {
-    width: 600px;
-    height: 300px;
-    background-color: #201c29;
-    -webkit-box-shadow: 0 0 5rem #100e17;
-            box-shadow: 0 0 5rem #100e17;
-    color: #a1a1af;
-    position: absolute;
-    padding: 2rem;
-    z-index: 3;
-    border-radius: 1rem;
-  }
-  .about-me-container,
-  .mis-clientes-container {
-    top: -3rem;
-    left: 21%;
-  }
-  .about-me-container::after {
-    content: "";
-    position: absolute;
-    height: 26rem;
-    border: 10px solid #201c29;
-    border-bottom-left-radius: 50px;
-    left: 50%;
-  }
-  .experiencia-container {
-    top: -3rem;
-    right: 15%;
-  }
-  .experiencia-container::before {
-    content: "";
-    position: absolute;
-    width: 17rem;
-    border: 10px solid #201c29;
-    top: 50%;
-    left: -43.4%;
-    border-bottom-left-radius: 50px;
-  }
-  .fas.fa-dna,
-  .fas.fa-briefcase,
-  .fab.fa-black-tie {
-    font-size: 8rem;
-  }
-  .about-me p:last-child {
-    font-size: 0.8rem;
-  }
-  /* Sección sobre mi - Fin */
-}
 /*# sourceMappingURL=styles.css.map */

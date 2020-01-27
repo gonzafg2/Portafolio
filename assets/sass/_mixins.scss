@@ -1,0 +1,23 @@
+// Estilos Generales Sección - Yo
+@mixin sectionMe($height:300px) {
+    width: 100%;
+    height: $height;
+    position: relative;
+}
+// Fin - Estilos Generales Sección - Yo
+
+// Estilos Generales Contenedor - Yo
+@mixin containerMe($width,$height:100%) {
+    width: $width;
+    height: $height;
+    background-color: #201c29;
+    box-shadow: 0 0 5rem #100e17;
+    color: #a1a1af;
+    padding: 2rem;
+    z-index: 3;
+    border-radius: 1rem;
+    /* @media screen and (min-width: 1140px) {
+        position: absolute;
+    } */
+}
+// Fin - Estilos Generales Contenedor - Yo

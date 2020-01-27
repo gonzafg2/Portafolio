@@ -33,43 +33,44 @@ html(lang="es")
               li.nav-item.active
                 a.nav-link(href="index.html#inicio") Home
               li.nav-item
-                a.nav-link(href="#") Sobre Mí
+                a.nav-link.d-none.d-xl-block(href="index.html#about-me") Sobre Mí
               li.nav-item
                 a.nav-link(href="index.html#caracteristicas-banner") Características
               li.nav-item.dropdown
                 a.nav-link.dropdown-toggle#navbarDropdown(role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false", href="#") Clientes
                 .dropdown-menu(aria-labelledby="navbarDropdown")
-                  a.dropdown-item(href="#") DMR Accesorios
-                  a.dropdown-item(href="#") Integralma
-                  a.dropdown-item(href="#") Tu Colaborador
-                  a.dropdown-item(href="#") Masman Producciones
-                  a.dropdown-item(href="#") Ricetta di Napoli
+                  a.dropdown-item(href="https://dmraccesorios.cl") DMR Accesorios
+                  a.dropdown-item(href="https://integralma.cl") Integralma
+                  a.dropdown-item(href="https://tucolaborador.com") Tu Colaborador
+                  a.dropdown-item(href="https://ricettadinapoli.team") Ricetta di Napoli
               li.nav-item.dropdown
                 a.nav-link.dropdown-toggle#navbarDropdown(role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false", href="#") Templates
                 .dropdown-menu(aria-labelledby="navbarDropdown")
-                  a.dropdown-item(href="#") Meet & Coffee
-                  a.dropdown-item(href="#") Iguanas
-                  a.dropdown-item(href="#") Suricata
-                  a.dropdown-item(href="#") Cuppon
-                  a.dropdown-item(href="#") Ricomida
-              li.nav-item
+                  a.dropdown-item(href="sites/meet&coffee") Meet & Coffee
+                  a.dropdown-item(href="sites/iguana") Iguanas
+                  a.dropdown-item(href="sites/suricata") Suricata
+                  a.dropdown-item(href="sites/cuppon") Cuppon
+                  a.dropdown-item(href="sites/ricomida") Ricomida
+              li.nav-item.d-lg-none
+                a.nav-link(href="index.html#contactoPeque") Contacto
+              li.nav-item.d-none.d-lg-block
                 a.nav-link(href="index.html#contacto") Contacto
       
       main.pb-5
         header.jumbotron.ff-brand.text-white
           .jumbotron-img
           .row
-            .col-12.col-lg-8.my-auto.text-right
-              h1 Desarrolador FrontEnd
+            .col-12.col-lg-8.order-2.order-xl-1.my-auto.text-right
+              h1 Desarrollador FrontEnd
               .lead Gonzalo Fleming G.
               hr.my-4
             
-            .col-12.col-lg-4.pl-5
+            .col-12.col-lg-4.order-1.order-xl-2.pl-5.mb-3.mb-0
               .img-perfil-frame.pl-5
                 img.img-perfil.w-50(src="assets/img/yo.jpg", alt="Gonzalo F.")
 
-        section.about-me.d-none.d-md-block
-          .about-me-container
+        section#about-me.about-me.d-none.d-xl-block.my-5
+          .about-me-container.mx-auto
             .row
               .col-8.my-auto
                 p Santiago, Chile
@@ -82,35 +83,346 @@ html(lang="es")
               .col-4.my-auto.text-white.text-center
                 i.fas.fa-dna
 
-        section.experiencia.my-4
-          .experiencia-container
+        section.experiencia.my-5
+          .experiencia-container.mx-auto
             .row
-              .col-4.my-auto.text-white.text-center
+              .col-12.col-lg-4.my-auto.text-white.text-center
                 i.fas.fa-briefcase
               
-              .col-8.my-auto
-                h3.text-white Experiencia
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              .col-12.col-lg-8.my-auto
+                h3.text-white Experiencia (Resumen)
+                p Licenciado en Química y Farmacia (UV). Desarrollador Web con HTML, CSS y JS.
                 ul
-                  li Holi
-                  li Holi
-                  li Holi
-                  li Holi
+                  li <span class="text-white">2012:</span> Parto mi experiencia en la programación web al trabajar en el desarrollo y validación de un sistema farmacéutico de gestión.
+                  li <span class="text-white">2012:</span> El mismo año estudio de forma autónoma y creo mi primer sistema para el registro de fiscalizaciones en PHP.
+                  li <span class="text-white">2013 - :</span> Realizo diversos programas de Desarrollo Web y Ciencia de Datos, como HTML y CSS de la Universidad de Alicante (España), Ídem de Fundación Telefónica, Data Science en University of Colorado y Johns Hopkins University, entre otros.
+                  li <span class="text-white">2018:</span> Desde aquí fundo mi empresa para trabajar en diversos ámbitos, pero principalmente en desarrollo de sitios web, proporcionando servicios como web y email hosting.
+
+        section.mis-clientes.my-5
+          .mis-clientes-container.mx-auto
+            .row
+              .col-12.col-lg-8.order-2.order-lg-1.my-auto.pl-lg-5
+                h3.text-white Últimos Clientes
+                p Los últimos clientes con los que he trabajado en la creación de su sitio corporativo son:
+                ul
+                  li: a(href="https://integralma.cl") Integralma
+                  li: a(href="https://tucolaborador.com") Tu Colaborador
+                  li: a(href="https://ricettadinapoli.team") Ricetta di Napoli
+                  li: a(href="https://dmraccesorios.cl") DMR Accesorios
+              
+              .col-12.col-lg-4.order-1.order-lg-2.my-auto.text-white.text-center
+                i.fab.fa-black-tie
+
+        section#caracteristicas-banner.caracteristicas.text-center.text-white.py-5.my-5
+          .container-fluid
+            .row
+              .col
+                i.fab.fa-html5
+                p HTML5
+              .col
+                i.fab.fa-css3
+                p CSS3
+              .col
+                i.fab.fa-js-square
+                p Javascript
+              .col
+                i.fas.fa-mobile-alt
+                p Responsive Design
+
+        section.websites-clients.my-5.py-5.d-lg-none
+          .container
+            .row.text-center.ff-brand
+              .col
+                header
+                  h2 Clientes
+                  hr
+            .row
+              .col-xl-12.col-sm-6.col-md-4.col-lg-3
+                .card.mb-5
+                  img.card-img-top.w-100(src="assets/img/goku.jpg", alt="DMR Accesorios")
+                  .card-body.text-center
+                    h4.card-title DMR Accesorios
+                    h6.card-subtitle.text-muted.mb-3
+                      a(href="#") dmraccesorios.cl
+                    hr
+                    p.card-text.text-left.mb-3 Sitio web de ventas de diversos productos para regalo, articulos de librería, ropa, pago de cuentas y servicios, juegos de azar, polla chilena y lotería.
+                    hr
+                    button.btn.btn-dark.btn-block(data-toggle="modal",data-target="#web-1", type="button") Ver
+
+                .modal.fade#web-1(tabindex="-1", role="dialog")
+                  .modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-75(role="document")
+                    .modal-content
+                      iframe(src="https://dmraccesorios.cl", frameborder="0", width="100%")
+                      .modal-footer.mx-auto.py-0
+                        button.btn.btn-secondary(type="button", data-dismiss="modal") Cerrar
+                .card.mb-5
+                  img.card-img-top.w-100(src="assets/img/goku.jpg", alt="Tu Colaborador")
+                  .card-body.text-center
+                    h4.card-title Tu Colaborador
+                    h6.card-subtitle.text-muted.mb-3
+                      a(href="https://tucolaborador.com") tucolaborador.com
+                    hr
+                    p.card-text.text-left.mb-3 Tu Colaborador es una organización especializada en consultoría, que presta servicios de Reclutamiento y Selección, Head Hunting, Entrenamiento y Desarrollo, entre otros.
+                    hr
+                    button.btn.btn-dark.btn-block(data-toggle="modal",data-target="#web-1", type="button") Ver
+
+                .modal.fade#web-1(tabindex="-1", role="dialog")
+                  .modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-75(role="document")
+                    .modal-content
+                      iframe(src="https://tucolaborador.com", frameborder="0", width="100%")
+                      .modal-footer.mx-auto.py-0
+                        button.btn.btn-secondary(type="button", data-dismiss="modal") Cerrar
+
+                .card.mb-5
+                  img.card-img-top.w-100(src="assets/img/goku.jpg", alt="Integralma")
+                  .card-body.text-center
+                    h4.card-title Integralma
+                    h6.card-subtitle.text-muted.mb-3
+                      a(href="https://integralma.cl") integralma.cl
+                    hr
+                    p.card-text.text-left.mb-3 Empresa de prestación de servicios orientados a fortalecer la calidad de vida de las personas, en el ámbito laboral y personal.
+                    hr
+                    button.btn.btn-dark.btn-block(data-toggle="modal",data-target="#web-1", type="button") Ver
+
+                .modal.fade#web-1(tabindex="-1", role="dialog")
+                  .modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-75(role="document")
+                    .modal-content
+                      iframe(src="https://integralma.cl", frameborder="0", width="100%")
+                      .modal-footer.mx-auto.py-0
+                        button.btn.btn-secondary(type="button", data-dismiss="modal") Cerrar
+
+                .card.mb-5
+                  img.card-img-top.w-100(src="assets/img/goku.jpg", alt="DMR Accesorios")
+                  .card-body.text-center
+                    h4.card-title Ricetta di Napoli
+                    h6.card-subtitle.text-muted.mb-3
+                      a(href="https://ricettadinapoli.team") ricettadinapoli.team
+                    hr
+                    p.card-text.text-left.mb-3 Sitio de venta de Pizzas y demás por Delivery y Retiro en Local.
+                    hr
+                    button.btn.btn-dark.btn-block(data-toggle="modal",data-target="#web-1", type="button") Ver
+
+                .modal.fade#web-1(tabindex="-1", role="dialog")
+                  .modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-75(role="document")
+                    .modal-content
+                      iframe(src="https://ricettadinapoli.team", frameborder="0", width="100%")
+                      .modal-footer.mx-auto.py-0
+                        button.btn.btn-secondary(type="button", data-dismiss="modal") Cerrar
+
+        section.websites-clients.my-5.py-5.d-none.d-lg-block
+          .container
+            .row.text-center.ff-brand.pb-5
+              .col
+                header
+                  h2 Clientes
+                  hr
+            .row
+              .col
+                #carrusel-websites-clients.carousel.slide(data-ride="carousel")
+                  .carousel-inner
+                    .carousel-item.active
+                      .row
+                        .col-5
+                          .card
+                            img.card-img-top.w-100(src="assets/img/goku.jpg", alt="DMR Accesorios")
+                            .card-body.text-center
+                              h4.card-title DMR Accesorios
+                              h6.card-subtitle.text-muted.mb-3
+                                a(href="#") dmraccesorios.cl
+                              hr
+                              p.card-text.text-left.mb-3 Sitio de una tienda de accesorios y confecciones como telares, etc. Artículos de regalos y juegos de azar.
+                              br
+                              hr
+                              button.btn.btn-dark.btn-block(data-toggle="modal",data-target="#web-1", type="button") Ver
+
+                          .modal.fade#web-1(tabindex="-1", role="dialog")
+                            .modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-75(role="document")
+                              .modal-content
+                                iframe(src="https://dmraccesorios.cl", frameborder="0", width="100%")
+                                .modal-footer.mx-auto.py-0
+                                  button.btn.btn-secondary(type="button", data-dismiss="modal") Cerrar
+                        .col
+                        .col-5
+                          .card
+                            img.card-img-top.w-100(src="assets/img/goku.jpg", alt="Tu Colaborador")
+                            .card-body.text-center
+                              h4.card-title Tu Colaborador
+                              h6.card-subtitle.text-muted.mb-3
+                                a(href="https://tucolaborador.com") tucolaborador.com
+                              hr
+                              p.card-text.text-left.mb-3 Tu Colaborador es una organización especializada en consultoría, que presta servicios de Reclutamiento y Selección, Head Hunting, Entrenamiento y Desarrollo, entre otros.
+                              hr
+                              button.btn.btn-dark.btn-block(data-toggle="modal",data-target="#web-1", type="button") Ver
+
+                          .modal.fade#web-1(tabindex="-1", role="dialog")
+                            .modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-75(role="document")
+                              .modal-content
+                                iframe(src="https://tucolaborador.com", frameborder="0", width="100%")
+                                .modal-footer.mx-auto.py-0
+                                  button.btn.btn-secondary(type="button", data-dismiss="modal") Cerrar
+                        
+                    .carousel-item
+                      .row
+                        .col-5
+                          .card
+                            img.card-img-top.w-100(src="assets/img/goku.jpg", alt="Integralma")
+                            .card-body.text-center
+                              h4.card-title Integralma
+                              h6.card-subtitle.text-muted.mb-3
+                                a(href="https://integralma.cl") integralma.cl
+                              hr
+                              p.card-text.text-left.mb-3 Empresa de prestación de servicios orientados a fortalecer la calidad de vida de las personas en el ámbito laboral y personal.
+                              hr
+                              button.btn.btn-dark.btn-block(data-toggle="modal",data-target="#web-1", type="button") Ver
+
+                          .modal.fade#web-1(tabindex="-1", role="dialog")
+                            .modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-75(role="document")
+                              .modal-content
+                                iframe(src="https://integralma.cl", frameborder="0", width="100%")
+                                .modal-footer.mx-auto.py-0
+                                  button.btn.btn-secondary(type="button", data-dismiss="modal") Cerrar
+                        .col
+                        .col-5
+                          .card
+                            img.card-img-top.w-100(src="assets/img/goku.jpg", alt="DMR Accesorios")
+                            .card-body.text-center
+                              h4.card-title Ricetta di Napoli
+                              h6.card-subtitle.text-muted.mb-3
+                                a(href="https://ricettadinapoli.team") ricettadinapoli.team
+                              hr
+                              p.card-text.text-left.mb-3 Sitio de preparación y venta de Pizzas, Empanadas, Fajitas, Bebestibles y demás por Entrega a Domicilio y Retiro en Local.
+                              hr
+                              button.btn.btn-dark.btn-block(data-toggle="modal",data-target="#web-1", type="button") Ver
+
+                          .modal.fade#web-1(tabindex="-1", role="dialog")
+                            .modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-75(role="document")
+                              .modal-content
+                                iframe(src="https://ricettadinapoli.team", frameborder="0", width="100%")
+                                .modal-footer.mx-auto.py-0
+                                  button.btn.btn-secondary(type="button", data-dismiss="modal") Cerrar
+                        //- .col-3
+                          //- .card
+                            img.card-img-top.w-100(src="assets/img/goku.jpg", alt="DMR Accesorios")
+                            .card-body.text-center
+                              h4.card-title DMR Accesorios
+                              h6.card-subtitle.text-muted.mb-3
+                                a(href="#") dmraccesorios.cl
+                              hr
+                              p.card-text.text-left.mb-3 Sitio de una tienda de accesorios y confecciones como telares, etc. Artículos de regalos y juegos de azar.
+                              hr
+                              button.btn.btn-dark.btn-block(data-toggle="modal",data-target="#web-1", type="button") Ver
+
+                          .modal.fade#web-1(tabindex="-1", role="dialog")
+                            .modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-75(role="document")
+                              .modal-content
+                                iframe(src="https://dmraccesorios.cl", frameborder="0", width="100%")
+                                .modal-footer.mx-auto.py-0
+                                  button.btn.btn-secondary(type="button", data-dismiss="modal") Cerrar
+                  ol.carousel-indicators
+                    li.active(data-target="#carrusel-websites-clients", data-slide-to="0")
+                    li(data-target="#carrusel-websites-clients", data-slide-to="1")
+
+        section.websites-clients.my-5.py-5
+          .container
+            .row.text-center.ff-brand.pb-5
+              .col
+                header
+                  h2 Templates
+                  hr
+            .row
+              .col-xs-12.col-sm-6.col-md-4.col-lg-3
+                .card.mb-5
+                  img.card-img-top.w-100(src="assets/img/goku.jpg", alt="Meet&Coffee")
+                  .card-body.text-center
+                    h4.card-title Meet & Coffee
+                    h6.card-subtitle.text-muted.mb-3
+                      a(href="sites/meet&coffee") sites/meet&coffee
+                    hr
+                    p.card-text.text-left.mb-3 Maqueta 1 | No Responsive
+                    hr
+                    a.btn.btn-dark.btn-block(href="sites/meet&coffee" role="button" data-toggle="tooltip" data-placement="top" title="Ver en Escritorio / Sin Vista Móvil") Ver
+              
+              .col-xs-12.col-sm-6.col-md-4.col-lg-3
+                .card.mb-5
+                  img.card-img-top.w-100(src="assets/img/goku.jpg", alt="Meet&Coffee")
+                  .card-body.text-center
+                    h4.card-title Iguanas
+                    h6.card-subtitle.text-muted.mb-3
+                      a(href="sites/iguana") sites/iguana
+                    hr
+                    p.card-text.text-left.mb-3 Maqueta 2 | No Responsive
+                    hr
+                    a.btn.btn-dark.btn-block(href="sites/iguana" role="button" data-toggle="tooltip" data-placement="top" title="Ver en Escritorio / Sin Vista Móvil") Ver
+              
+              .col-xs-12.col-sm-6.col-md-4.col-lg-3
+                .card.mb-5
+                  img.card-img-top.w-100(src="assets/img/goku.jpg", alt="Meet&Coffee")
+                  .card-body.text-center
+                    h4.card-title Suricata
+                    h6.card-subtitle.text-muted.mb-3
+                      a(href="sites/suricata") sites/suricata
+                    hr
+                    p.card-text.text-left.mb-3 Maqueta 3 | Responsive
+                    hr
+                    a.btn.btn-dark.btn-block(href="sites/suricata" role="button" data-toggle="tooltip" data-placement="top" title="Ver en Escritorio y Móvil") Ver
+              
+              .col-xs-12.col-sm-6.col-md-4.col-lg-3
+                .card.mb-5
+                  img.card-img-top.w-100(src="assets/img/goku.jpg", alt="Meet&Coffee")
+                  .card-body.text-center
+                    h4.card-title Cuppon
+                    h6.card-subtitle.text-muted.mb-3
+                      a(href="sites/cuppon") sites/cuppon
+                    hr
+                    p.card-text.text-left.mb-3 Maqueta 4 | Responsive
+                    hr
+                    a.btn.btn-dark.btn-block(href="sites/cuppon" role="button" data-toggle="tooltip" data-placement="top" title="Ver en Escritorio y Móvil") Ver
+              
+              .col-xs-12.col-sm-6.col-md-4.col-lg-3
+                .card.mb-5
+                  img.card-img-top.w-100(src="assets/img/goku.jpg", alt="ricomida")
+                  .card-body.text-center
+                    h4.card-title Ricomida
+                    h6.card-subtitle.text-muted.mb-3
+                      a(href="sites/ricomida") sites/ricomida
+                    hr
+                    p.card-text.text-left.mb-3 Maqueta 5 | Responsive
+                    hr
+                    a.btn.btn-dark.btn-block(href="sites/ricomida" role="button" data-toggle="tooltip" data-placement="top" title="Ver en Escritorio y Móvil") Ver
 
 
+        section#contactoPeque.contacto.text-center.d-lg-none
+          .container
+            .row
+              .col
+                <div class="typeform-widget" data-url="https://gonzalofleming.typeform.com/to/uze8Uh" data-transparency="36" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=uze8Uh&utm_source=typeform.com-01DZ4CH1ECJJHASRWK4ZHYJTFR-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 
+        section#contacto.contacto.text-center.d-none.d-lg-block
+          .container
+            .row
+              .col
+                button.btn.btn-danger.btn-lg.btn-block.text-white.typeform-share.button(href="https://gonzalofleming.typeform.com/to/uze8Uh"  target="_blank" data-toggle="tooltip" data-target="#btn-contacto" type="button" data-placement="bottom" title="Haga clic para contactarse" data-mode="popup") Hablemos <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
+      footer.footer.bg-brand.py-4.mt-5.text-white.text-center
+        .container
+          .row.py-4.px-1
+            .col.mx-auto
+              a(href="https://www.linkedin.com/in/gfleming-garrido/" target="_blank")
+                i.fab.fa-linkedin-in.mr-5
+              a(href="https://github.com/gonzafg2/" target="_blank")
+                i.fab.fa-github.mr-5
+              a(href="https://twitter.com/Gonzalo_Fleming" target="_blank")
+                i.fab.fa-twitter.mr-5
+              a(href="https://www.facebook.com/gonzalo.a.fleming" target="_blank")
+                i.fab.fa-facebook.mr-5.mt-3
+              a(href="https://www.instagram.com/gonzaflemingg" target="_blank")
+                i.fab.fa-instagram.mt-3
 
-
-
-
-
-
-
-
-
-
-
+          .row
+            .col
+              p Gonzalo Fleming Garrido <i class="far fa-copyright text-white"></i> 2020 - Todos los Derechos Reservados
+              p.my-0
+                a(href="https://miapp.digital" target="_blank") miapp.digital <i class="far fa-registered"></i> - Un proyecto de <a href="https://flemingtech.us/" target="_blank"> Fleming Science & Technologies</a>
 
     script(src="https://code.jquery.com/jquery-3.4.1.min.js", integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=", crossorigin="anonymous")
     script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js", integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo", crossorigin="anonymous")

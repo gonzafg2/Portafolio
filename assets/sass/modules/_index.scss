@@ -6,3 +6,27 @@
 @import "caracteristicas";
 @import "websites-clients";
 @import "modal-contacto";
+
+// Íconos de Fontawesome
+.fas.fa-dna,
+.fas.fa-briefcase,
+.fab.fa-black-tie {
+   @media screen and (min-width: 300px) {
+       font-size: 2.5rem;
+       margin-bottom: 1rem;
+   }
+   @media screen and (min-width: 576px) {
+       font-size: 6.5rem;
+       margin-bottom: 1rem;
+   }
+   @media screen and (min-width: 768px) {
+       font-size: 7.5rem;
+   }
+   @media screen and (min-width: 992px) {
+       font-size: 8rem;
+   }
+   @media screen and (min-width: 1140px) {
+       font-size: 8rem;
+   }
+}
+// Fin - Íconos de Fontawesome
